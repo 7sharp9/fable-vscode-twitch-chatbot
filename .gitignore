@@ -7,3 +7,4 @@ obj/
 .paket/.store
 .paket/paket.exe
 paket-files/
+.env
