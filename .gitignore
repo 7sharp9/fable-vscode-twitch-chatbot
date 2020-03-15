@@ -1,0 +1,9 @@
+node_modules
+.vscode-test/
+*.vsix
+out/
+obj/
+.fable/
+.paket/.store
+.paket/paket.exe
+paket-files/
