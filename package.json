@@ -1,7 +1,9 @@
 {
     "name": "fable-vscode-extension",
     "displayName": "fable-vscode-extension",
-    "description": "",
+    "repository": "https://github.com/7sharp9/fable-vscode-extension",
+    "description": "fable vscode addin that hosts a chatbot that can integrate into vscode",
+    "license": "Apache-2.0",
     "version": "0.0.1",
     "publisher": "7sharp9",
     "engines": {
