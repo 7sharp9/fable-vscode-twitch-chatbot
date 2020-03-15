@@ -15,7 +15,7 @@
     ],
     "main": "./out/Extension.js",
     "contributes": {
-        "commands": [ ]
+        "commands": []
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
