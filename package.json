@@ -1,0 +1,37 @@
+{
+    "name": "fable-vscode-extension",
+    "displayName": "fable-vscode-extension",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "7sharp9",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/Extension.js",
+    "contributes": {
+        "commands": [ ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "build": "fable-splitter --config splitter.config.js",
+        "watch": "yarn run build --watch"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+        "@types/vscode": "^1.43.0",
+        "fable-compiler": "^2.4.19",
+        "fable-splitter": "^2.1.0",
+        "vscode": "^1.1.36"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "tmi.js": "^1.5.0"
+    }
+}
