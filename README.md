@@ -1,4 +1,4 @@
-# fable-addin-extension
+# fable-vscode-twitch-chatbot
 
 ## Build
 
