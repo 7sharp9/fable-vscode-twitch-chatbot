@@ -25,12 +25,12 @@
         "watch": "yarn run build --watch"
     },
     "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+        "@types/vscode": "^1.44.0",
+        "fable-compiler": "^2.4.22",
+        "fable-splitter": "^2.1.13",
         "minimist": ">=1.2.2",
-        "@babel/core": "^7.2.2",
-        "@babel/plugin-transform-modules-commonjs": "^7.2.0",
-        "@types/vscode": "^1.43.0",
-        "fable-compiler": "^2.4.19",
-        "fable-splitter": "^2.1.0",
         "vscode": "^1.1.36"
     },
     "dependencies": {
