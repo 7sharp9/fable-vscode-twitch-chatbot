@@ -8,7 +8,8 @@ module.exports = {
   entry: resolve("src/FableVscodeExtention.fsproj"),
   outDir: resolve("out"),
   babel: {
-    plugins: ["@babel/plugin-transform-modules-commonjs"]
+    plugins: ["@babel/plugin-transform-modules-commonjs"],
+    sourceMaps: true
   },
   allFiles: true
 };
