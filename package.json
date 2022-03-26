@@ -30,7 +30,7 @@
         "@types/vscode": "^1.44.0",
         "fable-compiler": "^2.4.22",
         "fable-splitter": "^2.1.13",
-        "minimist": ">=1.2.2",
+        "minimist": ">=1.2.6",
         "vscode": "^1.1.36"
     },
     "dependencies": {
